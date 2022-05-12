@@ -22,6 +22,7 @@ import app.bidar.diceroller.ui.theme.DiceRollerTheme
 
 
 // this is branch debug
+// this is branch debug and test commit 2
 class MainActivity : ComponentActivity() {
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
