@@ -52,7 +52,9 @@ fun DiceWithButtonAndImage(modifier: Modifier = Modifier) {
 
     var result by remember { mutableStateOf(1)}
     Log.i("reza", "num1: $result")
-    val imageResource = when (result) {
+    var tempResult = result.toInt() // just for debug
+
+    val imageResource = when (result) { // run in debug tempResult.equals(6)
         1 -> R.drawable.dice_1
         2 -> R.drawable.dice_2
         3 -> R.drawable.dice_3
